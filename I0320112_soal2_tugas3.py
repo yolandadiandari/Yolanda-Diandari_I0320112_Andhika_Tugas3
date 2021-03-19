@@ -7,14 +7,14 @@ dict = {'Nama': ['Yolanda Diandari'],
 print(dict)
 
 #mengubah salah satu hobi dan sosial media
-dict['Hobi'][2] = ('Menulis')
+dict['Hobi'][1] = ('Netflixan')
 dict['Sosial media'][1] = ('Twitter : thinkerbelle')
 
 #menghapus 2 makanan favorit
 del(dict)['Makanan favorit'][1:]
 
 #menambahkan 1 hobi
-dict['Hobi'].append('Kuliner')
+dict['Hobi'].append('Kulineran')
 
 print(dict)
 
